@@ -1,0 +1,62 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DLaB.RoleLogger.Xrm", "DLaB.RoleLogger.Xrm\DLaB.RoleLogger.Xrm.shproj", "{EF13A63D-2A0A-4DAC-95B9-B2F74D53EF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLaB.RoleLogger.Xrm.Plugin", "DLaB.RoleLogger.Xrm.Plugin\DLaB.RoleLogger.Xrm.Plugin.csproj", "{5A9B16B9-0E8E-444D-8CD2-95CE1CC3712C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLaB.RoleLogger.Xrm.Plugin.Tests", "DLaB.RoleLogger.Xrm.Plugin.Tests\DLaB.RoleLogger.Xrm.Plugin.Tests.csproj", "{9195A6A4-6B1B-498A-B4D1-A818832B74B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLaB.RoleLogger.Xrm.Test", "DLaB.RoleLogger.Xrm.Test\DLaB.RoleLogger.Xrm.Test.csproj", "{E89C4F79-9A38-4B1D-A068-6083BDD7A8F7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DLaB.RoleLogger.Xrm.TestCore", "DLaB.RoleLogger.Xrm.TestCore\DLaB.RoleLogger.Xrm.TestCore.shproj", "{0311D5DD-1CF2-42AA-B82D-86FADF68F116}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DLaB.RoleLogger.Xrm.WorkflowCore", "DLaB.RoleLogger.Xrm.WorkflowCore\DLaB.RoleLogger.Xrm.WorkflowCore.shproj", "{143F7E4C-AE47-4DC5-9B77-FEEA5DB604AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Generation", "Code Generation", "{c7bbf2d4-c574-4cab-8d59-1c7681b46fba}"
+	ProjectSection(SolutionItems) = preProject
+		CodeGeneration\crmassumption.snippet = CodeGeneration\crmassumption.snippet
+		CodeGeneration\crmentitybuilder.snippet = CodeGeneration\crmentitybuilder.snippet
+		CodeGeneration\crmmstestclass.snippet = CodeGeneration\crmmstestclass.snippet
+		CodeGeneration\crmplugin.snippet = CodeGeneration\crmplugin.snippet
+		CodeGeneration\crmplugintest.snippet = CodeGeneration\crmplugintest.snippet
+		CodeGeneration\crmtestmethodclass.snippet = CodeGeneration\crmtestmethodclass.snippet
+		CodeGeneration\LINQPadGuidGenerator.txt = CodeGeneration\LINQPadGuidGenerator.txt
+		CodeGeneration\region.snippet = CodeGeneration\region.snippet
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DLaB.RoleLogger.Xrm.TestCore\DLaB.RoleLogger.Xrm.TestCore.projitems*{0311d5dd-1cf2-42aa-b82d-86fadf68f116}*SharedItemsImports = 13
+		DLaB.RoleLogger.Xrm.WorkflowCore\DLaB.RoleLogger.Xrm.WorkflowCore.projitems*{143f7e4c-ae47-4dc5-9b77-feea5db604ab}*SharedItemsImports = 13
+		DLaB.RoleLogger.Xrm\DLaB.RoleLogger.Xrm.projitems*{5a9b16b9-0e8e-444d-8cd2-95ce1cc3712c}*SharedItemsImports = 4
+		DLaB.RoleLogger.Xrm.TestCore\DLaB.RoleLogger.Xrm.TestCore.projitems*{9195a6a4-6b1b-498a-b4d1-a818832b74b6}*SharedItemsImports = 4
+		DLaB.RoleLogger.Xrm\DLaB.RoleLogger.Xrm.projitems*{ef13a63d-2a0a-4dac-95b9-b2f74d53ef83}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5a9b16b9-0e8e-444d-8cd2-95ce1cc3712c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5a9b16b9-0e8e-444d-8cd2-95ce1cc3712c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5a9b16b9-0e8e-444d-8cd2-95ce1cc3712c}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5a9b16b9-0e8e-444d-8cd2-95ce1cc3712c}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9195a6a4-6b1b-498a-b4d1-a818832b74b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9195a6a4-6b1b-498a-b4d1-a818832b74b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9195a6a4-6b1b-498a-b4d1-a818832b74b6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9195a6a4-6b1b-498a-b4d1-a818832b74b6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{e89c4f79-9a38-4b1d-a068-6083bdd7a8f7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e89c4f79-9a38-4b1d-a068-6083bdd7a8f7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e89c4f79-9a38-4b1d-a068-6083bdd7a8f7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{e89c4f79-9a38-4b1d-a068-6083bdd7a8f7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71C5F692-960B-4F8C-8936-12912904EB5C}
+	EndGlobalSection
+EndGlobal
